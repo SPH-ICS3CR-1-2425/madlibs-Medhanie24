@@ -1,8 +1,17 @@
 #Ask the user for at least ten questions
 #Read in each answer and store it in a variable
 #Print out the result
-
-print("Welcome to Mad Libs!")
-print("Give me a name: ")
+print("give me adjective")
+adjective=input()
+print("give me a person")
+person=input()
+print("give me a number")
+number=input()
+print("give me a drink")
+drink=input()
+print("give me a name")
 name=input()
-print("One day",name,"wrote a Mad Lib for class!")
+
+input()
+
+print("One day",person,"had a",drink," and it was",adjective)
